@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Ubuntu+Condensed&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  }
+
+  section{
+    padding: 100px
+  }
+
+  .banner{
+    position: relative;
+    min-height: 100vh;
+    background: url("Images/directions.jpg");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner h2{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+    align-items: center;
+  }
+
+  .banner h2 span{
+    font-weight: 700;
+    color: crimson
+  }
+
+  .banner h3{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    align-items: center;
+    }
+
+    .btn{
+      position: relative;
+      background: crimson;
+      display: inline-block;
+      color: white;
+      margin-top: 20px;
+      padding: 10px 30px;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-weight: 500;
+    }
+
+    header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 40px 100px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.5s;
+    }
+
+    header .sticky{
+      background: #fff;
+      padding: 20px 100px;
+      box-shadow: 0 5 px 20px rgba(0,0,0,0.1);
+    }
+
+    header .logo{
+      color: crimson;
+      font-size: 24px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    header .sticky .logo{
+      color: #111;
+    }
+
+    header ul{
+      position: relative;
+      display: flex;
+    }
+
+    header ul li{
+      position: relative;
+      list-style: none;
+    }
+
+    header ul li a{
+      position: relative;
+      display: inline-block;
+      margin: 0 15px;
+      color: crimson;
+      text-decoration: none;
+    }
+
+    header .sticky ul li a{
+      color: #111;
+    }
+
+    .heading{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #000000;
+      align-items: center;
+    }
+
+    .heading h2{
+      align-items: center;
+      font-weight: 600;
+      font-size: 30px;
+
+    }
+
+    .content{
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .contentBox{
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding-center: 30px;
+    }
+
+    .contentBox h3{
+      align-items: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+
+    }
+
+    .w50{
+      min-width: 50%;
+    }
+
+    img{
+      max-width: 100%;
+    }
+
+    .work .content{
+      align-items: center;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    /*Cheat Sheet Formating*/
+
+    .css{
+      align-items: left;
+      background: lightgray;
+      border-radius: 10px;
+      display: flow-root;
+      font-size: 24px;
+      margin: 10px;
+      padding-left: 10px;
+
+
+    }
+
+   .css ul {
+   display: flow-root;
+   list-style-type: none; /* Remove bullets */
+   padding: 0; /* Remove padding */
+   margin: 15px /* Remove margins */
+
+   }
+
+    .html{
+      align-items: left;
+      background: lightgray;
+      border-radius: 10px;
+      display: flow-root;
+      font-size: 24px;
+      margin: 10px;
+      padding-left: 10px;
+
+    }
+
+    .js{
+      align-items: left;
+      background: lightgray;
+      border-radius: 10px;
+      display: flow-root;
+      font-size: 24px;
+      margin: 10px;
+      padding-left: 10px;
+
+    }
